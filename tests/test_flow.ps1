@@ -1,6 +1,6 @@
 # Test-PetPulse.ps1
 # Requires: curl (installed in PowerShell 7+ or aliased)
-$BaseUrl = "http://localhost:3000"
+$BaseUrl = "https://api.petpulse.clestiq.com"
 $Username = "Test User " + (Get-Random)
 $Email = "testuser" + (Get-Random) + "@example.com"
 $Password = "password123"
